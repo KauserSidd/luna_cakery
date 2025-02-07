@@ -19,7 +19,7 @@
 				},
 				{
 					"slug": "gold",
-					"color": "#937c58",
+					"color": "#F3EED9",
 					"name": "Gold"
 				},
 				{
@@ -28,9 +28,9 @@
 					"name": "Dark Brown"
 				},
 				{
-					"slug": "secondary",
-					"color": "#00a0d2",
-					"name": "Secondary"
+					"slug": "border",
+					"color": "#F3EED9",
+					"name": "Border"
 				}
 			]
 		},
@@ -58,7 +58,10 @@
 		"color": {
 			"background": "var(--wp--preset--color--brown)",
 			"text": "var(--wp--preset--color--gold)"
-		}
+		},
+		"border": {
+				"color": "var(--wp--preset--color--border)"
+			}
 	},
 	"templateParts": [
 	{
