@@ -59,5 +59,12 @@
 			"background": "var(--wp--preset--color--brown)",
 			"text": "var(--wp--preset--color--gold)"
 		}
-	}
+	},
+	"templateParts": [
+	{
+		"name": "header",
+		"title": "Header",
+		"area": "header"
+	}	
+	]
 }
