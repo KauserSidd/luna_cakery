@@ -61,8 +61,25 @@
 		},
 		"border": {
 				"color": "var(--wp--preset--color--border)"
+			},
+			"blocks": {
+			"core/gallery": {
+				"spacing": {
+					"blockGap": "20px"
+				},
+				"typography": {
+					"textAlign": "center"
+						
+					},
+					"color": {
+						"text": "var(--wp--preset--color--gold)"
+					}
+				}
 			}
-	},
+		},
+	
+
+
 	"templateParts": [
 	{
 		"name": "header",
