@@ -13,19 +13,19 @@
 			"customDuotone": false,
 			"palette": [
 				{
-					"slug": "base",
-					"color": "#1e1e1e",
-					"name": "Base"
+					"slug": "brown",
+					"color": "#471c1c",
+					"name": "Brown"
 				},
 				{
-					"slug": "contrast",
-					"color": "#f0f0f0",
-					"name": "Contrast"
+					"slug": "gold",
+					"color": "#937c58",
+					"name": "Gold"
 				},
 				{
-					"slug": "primary",
-					"color": "#0073aa",
-					"name": "Primary"
+					"slug": "dark brown",
+					"color": "#231212",
+					"name": "Dark Brown"
 				},
 				{
 					"slug": "secondary",
@@ -56,8 +56,8 @@
 			"fontFamily": "var(--wp--preset--font-family--system)"
 		},
 		"color": {
-			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
+			"background": "var(--wp--preset--color--brown)",
+			"text": "var(--wp--preset--color--gold)"
 		}
 	}
 }
