@@ -27,3 +27,8 @@ Generated on fullsiteediting.com. No code version.
     width: 100%;
     max-width: 500px;
 }
+.about-text {
+    max-width: 80%; /* Adjust width to match the image */
+    margin: 0 auto; /* Centers the text */
+    text-align: center; /* Keeps the text aligned */
+}
