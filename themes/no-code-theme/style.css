@@ -32,3 +32,32 @@ Generated on fullsiteediting.com. No code version.
     margin: 0 auto; /* Centers the text */
     text-align: center; /* Keeps the text aligned */
 }
+/* Consistent width and alignment for all elements */
+.post-title,
+.post-text,
+.post-list,
+.post-text-last {
+    max-width: 50%; /* Adjust width to match the image */
+    margin: 0 auto; /* Centers the elements */
+    text-align: left; /* Aligns text properly */
+}
+
+/* Center the heading */
+.post-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Improve paragraph readability */
+.post-text,
+.post-text-last {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Style the list for better readability */
+.post-list {
+    padding-left: 20px;
+    max-width: 80%;
+}
