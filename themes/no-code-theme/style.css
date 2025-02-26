@@ -61,3 +61,37 @@ Generated on fullsiteediting.com. No code version.
     padding-left: 20px;
     max-width: 80%;
 }
+.wp-block-query-loop {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Increase space between posts */
+}
+
+/* Blog Post Title */
+.wp-block-post-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F3EED9; 
+}
+
+/* Blog Post Excerpt */
+.wp-block-post-excerpt {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #F3EED9;
+}
+
+/* Post Image Styling */
+.wp-block-post-featured-image img {
+    width: 100%; /* Ensure full width */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Align Image and Text Better */
+.wp-block-query {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Makes two columns: image & text */
+    align-items: center;
+    gap: 30px;
+}
