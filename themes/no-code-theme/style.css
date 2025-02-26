@@ -85,13 +85,25 @@ Generated on fullsiteediting.com. No code version.
 .wp-block-post-featured-image img {
     width: 100%; /* Ensure full width */
     height: auto;
-   
 }
 
-/* Align Image and Text Better */
+
 .wp-block-query {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Makes two columns: image & text */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 30px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.blog-template {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 40px;
 }
