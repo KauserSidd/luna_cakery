@@ -1,0 +1,49 @@
+.woocommerce-account {
+    max-width: 900px;
+    margin: 60px auto; 
+    text-align: center;
+}
+
+/* Center the Navigation Menu */
+.woocommerce-MyAccount-navigation {
+    background: #EADDC7; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 40px auto; 
+    text-align: left;
+}
+
+
+.woocommerce-MyAccount-navigation ul {
+    padding: 0;
+}
+
+/* Style My Account Content */
+.woocommerce-MyAccount-content {
+    background: #EADDC7; 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+/* Buttons */
+.woocommerce-Button {
+    background: #3D1F14 !important; 
+    color: #EADDC7 !important; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.woocommerce-Button:hover {
+    background: #8B5E3B !important; 
+}
