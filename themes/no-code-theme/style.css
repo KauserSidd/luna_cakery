@@ -107,3 +107,14 @@ Generated on fullsiteediting.com. No code version.
     text-align: left;
     gap: 40px;
 }
+/* Style the Read More links on the homepage */
+.wp-block-post-template .wp-block-post-title a {
+    color: #f5e6da !important; /* Beige color */
+    text-decoration: none; /* Remove underline if needed */
+    font-weight: 500; /* Optional: adjust font weight */
+}
+
+.wp-block-post-template .wp-block-post-title a:hover {
+    color: #ffcc00 !important; /* Gold hover color */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
