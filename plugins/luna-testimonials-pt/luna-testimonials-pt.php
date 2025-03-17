@@ -55,9 +55,9 @@ $args = array(
     'show_in_rest'          => true,
     'menu_icon'             => 'dashicons-megaphone',
     'capability_type'       => 'post',
-    'supports'              => array( 'title', 'editor', 'revisions' ),
+    'supports'              => array( 'title', 'editor', 'revisions', 'thumbnail' ),
     'has_archive'           => true,
-    'rewrite'               => array( 'slug' => 'testimonial' )
+    'rewrite'               => array( 'slug' => 'testimonials' )
     
 
 );
