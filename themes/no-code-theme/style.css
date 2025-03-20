@@ -131,4 +131,15 @@ Generated on fullsiteediting.com. No code version.
         display: flex;
         justify-content: center;
     }
+    .wp-block-query .wp-block-post {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content horizontally */
+        text-align: center; /* Ensures the text itself is centered */
+    }
+    
+    .wp-block-query .wp-block-post-title,
+    .wp-block-query .wp-block-post-date {
+        text-align: center;
+    }
 }
