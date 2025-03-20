@@ -15,6 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
+
+/* Form styling */
 .wp-block-form {
     display: flex;
     flex-direction: column;
@@ -27,19 +29,20 @@ Generated on fullsiteediting.com. No code version.
     width: 100%;
     max-width: 500px;
 }
+/* Styling for paragraph texts */
 .about-text {
-    max-width: 80%; /* Adjust width to match the image */
-    margin: 0 auto; /* Centers the text */
-    text-align: center; /* Keeps the text aligned */
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
 }
 /* Consistent width and alignment for all elements */
 .post-title,
 .post-text,
 .post-list,
 .post-text-last {
-    max-width: 50%; /* Adjust width to match the image */
-    margin: 0 auto; /* Centers the elements */
-    text-align: left; /* Aligns text properly */
+    max-width: 50%; 
+    margin: 0 auto; 
+    text-align: left; 
 }
 
 /* Center the heading */
@@ -64,7 +67,7 @@ Generated on fullsiteediting.com. No code version.
 .wp-block-query-loop {
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Increase space between posts */
+    gap: 40px; 
 }
 
 /* Blog Post Title */
@@ -83,11 +86,11 @@ Generated on fullsiteediting.com. No code version.
 
 /* Post Image Styling */
 .wp-block-post-featured-image img {
-    width: 100%; /* Ensure full width */
+    width: 100%; 
     height: auto;
 }
 
-
+/* Styles for the query block */
 .wp-block-query {
     display: flex;
     flex-direction: column;
@@ -107,24 +110,24 @@ Generated on fullsiteediting.com. No code version.
     text-align: left;
     gap: 40px;
 }
-/* Style the Read More links on the homepage */
+/* Styling for the Read More links on the homepage */
 .wp-block-post-template .wp-block-post-title a {
-    color: #f5e6da !important; /* Beige color */
-    text-decoration: none; /* Remove underline if needed */
-    font-weight: 500; /* Optional: adjust font weight */
+    color: #f5e6da !important; 
+    text-decoration: none; 
+    font-weight: 500; 
 }
-
+/* Styling for post links */
 .wp-block-post-template .wp-block-post-title a:hover {
-    color: #ffcc00 !important; /* Gold hover color */
-    text-decoration: underline; /* Optional: add underline on hover */
+    color: white !important; 
+    text-decoration: underline; 
 }
 
 @media (max-width: 768px) { 
     .wp-block-query .wp-block-post-featured-image img {
-        width: 100%; /* Adjust width as needed */
+        width: 100%; 
         height: auto;
-        max-width: 250px; /* Example size — adjust as needed */
-        object-fit: cover; /* Keeps the aspect ratio without distortion */
+        max-width: 250px; 
+        object-fit: cover; 
     }
 
     .wp-block-query .wp-block-post-featured-image {
@@ -134,12 +137,18 @@ Generated on fullsiteediting.com. No code version.
     .wp-block-query .wp-block-post {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centers the content horizontally */
-        text-align: center; /* Ensures the text itself is centered */
+        align-items: center; 
+        text-align: center; 
     }
     
     .wp-block-query .wp-block-post-title,
     .wp-block-query .wp-block-post-date {
         text-align: center;
     }
+    .wp-block-query .wp-block-post-title {
+        font-size: 18px; 
+        font-weight: 600; 
+        
+    }
+    
 }
