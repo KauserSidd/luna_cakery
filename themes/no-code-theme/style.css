@@ -118,3 +118,17 @@ Generated on fullsiteediting.com. No code version.
     color: #ffcc00 !important; /* Gold hover color */
     text-decoration: underline; /* Optional: add underline on hover */
 }
+
+@media (max-width: 768px) { 
+    .wp-block-query .wp-block-post-featured-image img {
+        width: 100%; /* Adjust width as needed */
+        height: auto;
+        max-width: 250px; /* Example size — adjust as needed */
+        object-fit: cover; /* Keeps the aspect ratio without distortion */
+    }
+
+    .wp-block-query .wp-block-post-featured-image {
+        display: flex;
+        justify-content: center;
+    }
+}
